@@ -11,7 +11,11 @@
 
     $paczki = $_POST['paczki'];
     $ciastka = $_POST['ciastka'];
-    $suma = 0.99 * $paczki + 1.99 * $ciastka;
+    $ciasta = $_POST['ciasta'];
+    $babeczki = $_POST['babeczki'];
+    $torty = $_POST['torty'];
+    $muffiny = $_POST['muffiny'];
+    $suma = 0.99 * $paczki + 1.99 * $ciastka + 10.99 * $ciasta + 5.99 * $babeczki + 21.99 * $torty + 6.99 * $muffiny;
 
 
     echo "<h2>Podusmowanie zamówienia</h2>";
@@ -23,6 +27,22 @@
     echo    "<tr>";
     echo        "<td>Ciastko (1.99 PLN/szt)</td>";
     echo        "<td> $ciastka </td>";
+    echo    "</tr>";
+    echo    "<tr>";
+    echo        "<td>Ciasto (10.99 PLN/szt)</td>";
+    echo        "<td> $ciasta </td>";
+    echo    "</tr>";
+    echo    "<tr>";
+    echo        "<td>Babeczka (5.99 PLN/szt)</td>";
+    echo        "<td> $babeczki </td>";
+    echo    "</tr>";
+    echo    "<tr>";
+    echo        "<td>Tort (21.99 PLN/szt)</td>";
+    echo        "<td> $torty </td>";
+    echo    "</tr>";
+    echo    "<tr>";
+    echo        "<td>Muffina (6.99 PLN/szt)</td>";
+    echo        "<td> $muffiny </td>";
     echo    "</tr>";
     echo    "<tr>";
     echo        "<td>Suma:</td>";

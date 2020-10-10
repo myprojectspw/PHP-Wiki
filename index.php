@@ -15,6 +15,18 @@
 
         <label>Ile ciastek (1.99 PLN/szt):</label>
         <input type="text" class="form-control" name="ciastka"/>
+
+        <label>Ile ciast (10.99 PLN/szt):</label>
+        <input type="text" class="form-control" name="ciasta"/>
+
+        <label>Ile babeczek (5.99 PLN/szt):</label>
+        <input type="text" class="form-control" name="babeczki"/>
+
+        <label>Ile tortów (21.99 PLN/szt):</label>
+        <input type="text" class="form-control" name="torty"/>
+
+        <label>Ile muffinek (6.99 PLN/szt):</label>
+        <input type="text" class="form-control" name="muffiny"/>
         <br /><br />
 
         <input type="submit" class="btn btn-primary" value="Wyślij zamówienie" />
