@@ -25,7 +25,7 @@
         <label>Ile tortów (21.99 PLN/szt):</label>
         <input type="text" class="form-control" name="torty"/>
 
-        <label>Ile muffinek (6.99 PLN/szt):</label>
+        <label>Ile muffinek z nadzieniem (6.99 PLN/szt):</label>
         <input type="text" class="form-control" name="muffiny"/>
         <br /><br />
 

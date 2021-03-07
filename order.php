@@ -42,7 +42,7 @@
     echo    "</tr>";
     echo    "<tr>";
     echo        "<td>Muffina (6.99 PLN/szt)</td>";
-    echo        "<td> $muffiny </td>";
+    echo        "<td> $muffiny z nadzieniem </td>";
     echo    "</tr>";
     echo    "<tr>";
     echo        "<td>Suma:</td>";
